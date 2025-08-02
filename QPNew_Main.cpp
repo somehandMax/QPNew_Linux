@@ -115,14 +115,6 @@ void Tool(){
     if(FunctionChoice=='1')adb();
     else if(FunctionChoice=='2')system("./Tool/chat/chat");
 }
-void Game(){
-    printf("4.2048\n");
-    char FunctionChoice;
-    // 读取用户的选择
-    cin>>FunctionChoice;
-    // 如果用户选择执行Tool命令，则调用Tool函数
-    if(FunctionChoice=='4')system("./Game/2048");
-}
 void Color(){
     cout<<"背景颜色序号(0~7)？ 0-黑色,1-红色,2-绿色,3-黄色,4-蓝色,5-洋红色,6-青色,7-白色,8-默认 "<<endl;
     cout<<">>";
@@ -183,7 +175,6 @@ signed main(){
     printf("请选择您要执行的功能:\n");
     printf("color.颜色\n");
     printf("website.跳转网站\n");
-    printf("game.游戏整合\n");
     printf("tool.工具整合\n");
     printf("sudo.索要管理员权限\n");
     printf("clear.清屏\n");
