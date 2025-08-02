@@ -192,10 +192,6 @@ A:
         cl;
         system("./Other/Website_redirect");
     }
-    else if(FunctionChoice=="game"){//游戏整合
-        cl;
-        Game();
-    }
     else if(FunctionChoice=="tool"){//工具整合
         cl;
         Tool();
