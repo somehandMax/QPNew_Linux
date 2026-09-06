@@ -3,4 +3,4 @@
 
 目前功能：adb、聊天室、网页推荐跳转、linux的终端命令行直接调用可sudo（**后续会更新**）
 
-作者邮箱：maxnb666@qq.com
+作者邮箱：qpnew@zcfmax.online
